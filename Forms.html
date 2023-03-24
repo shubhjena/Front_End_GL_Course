@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+<h1>Personal Details Form</h1> <hr>
+   <br>
+   <form action="message.html">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" value="Name" required><br><br>
+
+        <label >Start date</label>
+        <input type="date" name="start-date" value="1990-01-01" min="1990-01-01" max="2023-03-24"/><br><br>
+
+        <label>Password</label> 
+        <input type="password" name="password"/><br><br>
+
+        <label for="qty">Quantity</label>
+        <input type="number" id="qty" name="qty" value="1"><br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="searchforproducts">Search For Products</label>
+        <input type="search" name="searchforproducts" id="searchforproducts"><br><br>
+
+        <label for="address">Address</label>
+        <textarea name="address" id="address" cols="20" rows="10"></textarea><br><br>
+
+        <label for="city">City</label>
+        <select name="city" id="city">
+            <option selected value="">A</option>
+            <option value="">B</option>
+            <option value="">C</option>
+            <option value="">D</option>
+            <option value="">E</option>
+        </select>
+        <button>Submit</button>
+    </form>
+</body>
+</html> 
