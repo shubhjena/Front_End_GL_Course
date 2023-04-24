@@ -5,43 +5,134 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Registration Form</title>
 </head>
-<body>
-	<form>
-		<center><h1>Shubhashish's Registration Form</h1></center>
-	<hr>
-	<label>Firstname: </label>
-	<input type="text" name="firstname" placeholder="Firstname" size="10" required><br><br>
-	<label>Middlename: </label>
-	<input type="text" name="middlename" placeholder="Middlename" size="10" ><br><br>
-	<label>Lastname: </label>
-	<input type="text" name="lastname" placeholder="Lastname" size="10" required><br><br>
-	<div>
-		<label>Course:</label>
-		<select>
-			<option value="BSc">BSc</option>
-			<option value="BCom">BCom</option>
-			<option value="BA">BA</option>
-			<option value="BTech">BTech</option>
-			<option value="MBA">MBA</option>
-		</select>
-	</div><br>
-	<div>
-		<label>Gender: </label>
-		<input type="radio" name="gender" value="male" checked>Male
-		<input type="radio" name="gender" value="female">Female
-		<input type="radio" name="gender" value="other">Other
-	</div><br>
-	<label>Phone Number:</label>
-	<input type="text" name="Country code" placeholder="CountryCode" value="+91" size = "2">
-	<input type="text" name="phone" placeholder="Phone Number" size = "10" required><br><br>
-	<label>Current Address:</label>
-	<textarea cols="80" rows="5" placeholder="Current Address" value="address" required></textarea><br><br>
-	<label>Email: </label>
-	<input type="email" name="email" placeholder="Email" required><br><br>
-	<label>Password:</label>
-	<input type="Password" name="password" placeholder="Enter password" required><br><br>
-	<label>Repeat Password:</label>
-	<input type="Password" name="repassword" placeholder="Retype Password" required><br><br>
-	<button type="submit">Register</button>
+<body style="margin: 0;">
+	<table border="0" width="100%" cellspacing="0" cellpadding="0"  align="center">
+		<tr bgcolor="#ffcb8c">
+			<td align="center" colspan="3">
+				<form>
+					<h1><font face="Trebuchet MS" size="6" color="#000000">
+						Shubhashish's Registration Form</font></h1>
+				<hr>
+			</td>
+		</tr>
+		<tr>
+			<td width="100%">
+				<table border="0" width="80%" cellspacing="0" cellpadding="15" align="centre">
+					<tr>
+						<td width="15%" align="left" valign="middle">
+							<font face="Trebuchet MS" size="3" color="#000000"><strong>
+							<label>First-name: </label>
+							</strong></font>
+						</td>
+						<td  width="70%" align="left" valign="middle">
+							<input type="text" name="firstname" placeholder="First-name" size="60" required>
+						</td>
+					<tr>
+						<td width="15%" align="left" valign="middle">
+							<font face="Trebuchet MS" size="3" color="#000000"><strong>
+								<label>Middle-name: </label>
+							</strong></font>
+						</td>
+						<td  width="70%" align="left" valign="middle">
+							<input type="text" name="middlename" placeholder="Middle-name" size="60">
+						</td>
+					</tr>
+					<tr>
+						<td width="15%" align="left" valign="middle">
+							<font face="Trebuchet MS" size="3" color="#000000"><strong>
+								<label>Last-name: </label>
+							</strong></font>
+						</td>
+						<td  width="70%" align="left" valign="middle">
+							<input type="text" name="lastname" placeholder="Last-name" size="60" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<font face="Trebuchet MS" size="3" color="#000000"><strong>
+								<label>Course:</label>
+							</strong></font>
+						</td>
+						<td>
+							<select>
+								<option value="BSc">BSc</option>
+								<option value="BCom">BCom</option>
+								<option value="BA">BA</option>
+								<option value="BTech">BTech</option>
+								<option value="MBA">MBA</option>
+							</select>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<font face="Trebuchet MS" size="3" color="#000000"><strong>
+								<label>Gender: </label>
+							</strong></font>
+								<input type="radio" name="gender" value="male" checked>Male
+								<input type="radio" name="gender" value="female">Female
+								<input type="radio" name="gender" value="other">Other
+								
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<font face="Trebuchet MS" size="3" color="#000000"><strong>
+								<label>Phone Number:</label>
+							</strong></font>
+						</td>
+						<td>
+							<input type="text" name="Country code" placeholder="CountryCode" value="+91" size = "2">
+							<input type="text" name="phone" placeholder="Phone Number" size = "10" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<font face="Trebuchet MS" size="3" color="#000000"><strong>
+								<label>Current Address:</label>
+							</strong></font>
+						</td>
+						<td>
+							<textarea cols="59" rows="5" placeholder="Current Address" value="address" required></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<font face="Trebuchet MS" size="3" color="#000000"><strong>
+								<label>Email: </label>
+							</strong></font>
+						</td>
+						<td>
+							<input type="email" name="email" placeholder="Email" size="60" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<font face="Trebuchet MS" size="3" color="#000000"><strong>
+								<label>Password:</label>
+							</strong></font>
+						</td>
+						<td>
+							<input type="Password" name="password" placeholder="Enter Password" size="60" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<font face="Trebuchet MS" size="3" color="#000000"><strong>
+								<label>Repeat Password:</label>
+							</strong></font>
+						</td>
+						<td>
+							<input type="Password" name="repassword" placeholder="Retype Password" size="60" required>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr bgcolor = "#ffcb8c" >
+			<td align="center " height="5" colspan="3">
+				<br>
+				<button type="submit">Register</button>
+				<br><br>
+			</td>
+		</tr>
+	</table>
 </body>
 </html>
